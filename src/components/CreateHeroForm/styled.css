@@ -1,0 +1,85 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.Form div {
+  margin: 5px;
+}
+
+.GallaryChoose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ImageChoose {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ImageChoose img {
+  height: 180px;
+}
+
+.Textarea {
+  width: 250px;
+  height: 62px;
+  font-size: 12px;
+  border: 1px solid #afb1b6;
+  border-radius: 8px;
+}
+
+.Textarea textarea {
+  padding: 8px 2.4em 8px 10px;
+  width: 240px;
+  border: 0;
+  z-index: 0;
+  background-color: transparent;
+  font: inherit;
+  resize: none;
+}
+
+.Textarea textarea:focus {
+  outline: 0;
+}
+
+.InputComponent {
+  /* max-width: 400px; */
+  font-size: 12px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border: 1px solid #afb1b6;
+  border-radius: 8px;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.InputComponent:focus-within {
+  border: 1px solid #6658d3;
+}
+
+.InputComponent input {
+  padding: 8px 2.4em 8px 10px;
+  width: 100%;
+  border: 0;
+  z-index: 0;
+  background-color: transparent;
+  font: inherit;
+}
+
+.InputComponent input:focus {
+  outline: 0;
+}

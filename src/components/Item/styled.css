@@ -1,0 +1,39 @@
+img {
+  height: 200px;
+}
+
+.Post {
+  padding: 2em;
+  background-color: whitesmoke;
+  border: 1px #f7f5ff;
+  border-radius: 12px;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.ButtonsPad {
+  display: flex;
+}
+
+.ImageGaleryUpdate {
+  display: flex;
+  align-items: center;
+  /* width: 400px; */
+}
+
+.ImageGaleryUpdate img {
+  width: 200px;
+  height: auto;
+}
+
+.gallary {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
